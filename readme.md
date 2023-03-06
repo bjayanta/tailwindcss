@@ -20,3 +20,6 @@ Topic:
 - Responsive
 - Flex Box
 - Animation
+
+Video Tutorial:
+[YouTube](https://www.youtube.com/watch?v=6LhRLZ5_IgI&list=PLjVLYmrlmjGfpwYhVAbiGAhFl6h8XWDV)

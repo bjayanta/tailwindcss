@@ -528,12 +528,24 @@ video {
   line-height: 1;
 }
 
+.text-wscolor {
+  --tw-text-opacity: 1;
+  color: rgb(38 153 251 / var(--tw-text-opacity));
+}
+
 .text-yellow-900 {
   --tw-text-opacity: 1;
   color: rgb(113 63 18 / var(--tw-text-opacity));
 }
 
-.text-wscolor {
-  --tw-text-opacity: 1;
-  color: rgb(38 153 251 / var(--tw-text-opacity));
+@media (min-width: 1024px) {
+  .lg\:text-center {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:text-left {
+    text-align: left;
+  }
 }

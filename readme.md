@@ -1,6 +1,7 @@
-# Installation
+# Breakpoints
 
 Topic
 
-- Through CLI
-- Through CDN
+- Use Breakepoints
+- Change default size
+- Add new screen size

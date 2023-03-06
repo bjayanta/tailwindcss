@@ -1,5 +1,8 @@
-# Container
+# Text
 
 Topic
 
-- Basic use case
+- Color
+- Add new color with name
+- Add new color with code
+- Add fixed color into theme

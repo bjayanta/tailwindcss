@@ -12,4 +12,11 @@ Topic:
   - Configurations
 - Breakpoints
 - Container
-- Column
+- Text
+- Grid
+- Row
+- Padding/Spacing
+- Margin
+- Responsive
+- Flex Box
+- Animation

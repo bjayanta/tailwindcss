@@ -1,1 +1,6 @@
-Tailwind CSS
+# Installation
+
+Topic
+
+- Through CLI
+- Through CDN

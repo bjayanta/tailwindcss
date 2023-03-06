@@ -1,6 +1,5 @@
-# Installation
+# Container
 
 Topic
 
-- Through CLI
-- Through CDN
+- Basic use case

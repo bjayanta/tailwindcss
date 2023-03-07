@@ -4,60 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grid | Tailwind CSS</title>
+    <title>Row | Tailwind CSS</title>
 
     <!-- Tailwind CSS -->
     <link rel="stylesheet" href="../dist/style.css">
 </head>
 <body>
 
-    <!-- Grid -->
-    <div class="max-w-[1200px] text-white mx-auto grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-5 py-5">
-        <div class="bg-[green] p-5 text-center">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </div>
+    <!-- Grid Row -->
+    <div class="max-w-[1320px] mx-auto grid grid-rows-4 grid-flow-col gap-5">
+        <div class="bg-[green] py-5 text-center">1</div>
 
-        <div class="bg-[green] p-5 text-justify">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </div>
+        <div class="bg-[green] py-5 text-center">2</div>
 
-        <div class="bg-[green] p-5">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </div>
+        <div class="bg-[green] py-5 text-center">3</div>
 
-        <div class="bg-[green] p-5">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </div>
+        <div class="bg-[green] py-5 text-center">4</div>
 
-        <div class="bg-[green] p-5">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </div>
+        <div class="bg-[green] py-5 text-center">5</div>
 
-        <div class="bg-[green] p-5">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </div>
+        <div class="bg-[green] py-5 text-center">6</div>
 
-        <div class="bg-[green] p-5">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </div>
+        <div class="bg-[green] py-5 text-center">7</div>
 
-        <div class="bg-[green] p-5">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </div>
+        <div class="bg-[green] py-5 text-center">8</div>
+    </div>
 
-        <div class="bg-[green] py-5 text-center">Hello</div>
+    <hr>
+    Row Span
 
-        <div class="bg-[green] py-5 text-center">Hello</div>
+    <!-- Grid Row Span -->
+    <div class="max-w-[1320px] mx-auto grid grid-rows-4 grid-flow-col gap-5">
+        <div class="bg-[green] row-start-2 py-5 text-center">1</div>
 
-        <div class="bg-[green] py-5 text-center">Hello</div>
+        <div class="bg-[green] row-start-1 row-span-4 py-5 text-center">2</div>
 
-        <div class="bg-[green] py-5 text-center">Hello</div>
+        <div class="bg-[green] py-5 text-center">3</div>
 
-        <div class="bg-[green] py-5 text-center">Hello</div>
+        <div class="bg-[green] py-5 text-center">4</div>
 
-        <div class="bg-[green] py-5 text-center">Hello</div>
+        <div class="bg-[green] py-5 text-center">5</div>
 
-        <div class="bg-[green] py-5 text-center">Hello</div>
+        <div class="bg-[green] py-5 row-start-1 row-end-3 text-center">6</div>
+
+        <div class="bg-[green] py-5 text-center">7</div>
+
+        <div class="bg-[green] py-5 text-center">8</div>
     </div>
 
 </body>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Components | Tailwind CSS</title>
+
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body>
+
+    <!-- Button -->
+    <div class="container mx-auto my-20">
+        <div class="divide-y">
+            <h2 class="text-5xl font-extrabold tracking-widest uppercase py-10">Button</h2>
+            <div class="py-10 space-x-2">
+                <button class="bg-blue-500 text-white uppercase tracking-wider py-2 px-4 rounded-md shadow-md hover:bg-blue-700">Primary</button>
+
+                <button class="bg-green-500 text-white uppercase tracking-wider py-2 px-4 rounded-md shadow-md hover:bg-green-700">Success</button>
+
+                <button class="bg-yellow-500 text-white uppercase tracking-wider py-2 px-4 rounded-md shadow-md hover:bg-yellow-700">Warning</button>
+
+                <button class="bg-red-500 text-white uppercase tracking-wider py-2 px-4 rounded-md shadow-md hover:bg-red-700">Danger</button>
+
+                <button class="bg-red-500 text-white uppercase tracking-wider py-2 px-4 rounded-md shadow-md disabled:bg-red-300" disabled>Disabled</button>
+            </div>
+
+            <div class="py-10 space-x-2">
+                <button class="inline-flex space-x-2 bg-blue-500 text-white uppercase tracking-wider py-2 px-4 rounded-md shadow-md hover:bg-blue-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                    </svg> 
+                    <span>Download</span>
+                </button>
+
+                <button class="inline-flex space-x-2 bg-green-500 text-white uppercase tracking-wider py-2 px-4 rounded-md shadow-md hover:bg-green-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5m-13.5-9L12 3m0 0l4.5 4.5M12 3v13.5" />
+                    </svg>                      
+                    <span>Upload</span>
+                </button>
+            </div>
+
+            <div class="py-10 space-x-2">
+                <button class="border-2 border-blue-500 text-blue-500 uppercase tracking-wider py-2 px-4 rounded-md hover:bg-blue-500 hover:text-white">Primary</button>
+                <button class="border-2 uppercase tracking-wider py-2 px-4 rounded-md disabled:bg-red-300 disabled:border-red-300 disabled:text-white" disabled>Disabled</button>
+            </div>
+
+            <div class="py-10 space-x-2">
+                <button class="border-2 border-blue-500 text-blue-500 p-2 rounded-md hover:bg-blue-500 hover:text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                    </svg>                      
+                </button>
+
+                <button class="border-2 border-green-500 text-green-500 p-2 rounded-full hover:bg-green-500 hover:text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>
+
+                <button class="border-2 p-2 rounded-full disabled:bg-red-300 disabled:border-red-300 disabled:text-white" disabled>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M10.05 4.575a1.575 1.575 0 10-3.15 0v3m3.15-3v-1.5a1.575 1.575 0 013.15 0v1.5m-3.15 0l.075 5.925m3.075.75V4.575m0 0a1.575 1.575 0 013.15 0V15M6.9 7.575a1.575 1.575 0 10-3.15 0v8.175a6.75 6.75 0 006.75 6.75h2.018a5.25 5.25 0 003.712-1.538l1.732-1.732a5.25 5.25 0 001.538-3.712l.003-2.024a.668.668 0 01.198-.471 1.575 1.575 0 10-2.228-2.228 3.818 3.818 0 00-1.12 2.687M6.9 7.575V12m6.27 4.318A4.49 4.49 0 0116.35 15m.002 0h-.002" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        
+
+    </div>
+    
+</body>
+</html>

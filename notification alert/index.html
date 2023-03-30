@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alert notifications</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class=" flex min-h-screen flex-col justify-center items-center bg-gray-200">
+        <div class="flex flex-col gap-5">
+
+            <!-- Success alert start -->
+
+            <div class="max-w-lg rounded bg-green-100 text-green-700 overflow-hidden border-green-400">
+                <div class="flex">
+                    <div class="flex items-center gap-4 p-4">
+                        <div class="shrink-0">
+                            <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z"></path>
+                              </svg>
+                        </div>
+                        <div class="space-y-1">
+                            <p class="font-bold capitalize">Success!</p>
+                            <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla in delectus quidem voluptatum expedita consequuntur.</p>
+                            <div>
+                                <a class=" flex items-center text-sm tracking-wide hover:underline" href="">See Details...</a>
+                            </div>
+                        </div>
+                        <div class="flex cursor-pointer items-center justify-center border-green-200 hover:bg-green-200 alert-del h-5 w-5 p-4">&times;
+                        </div>
+                </div>
+            </div>
+        </div>
+            <!-- Success alert end -->
+
+            <!-- info alert start -->
+
+            <div class="max-w-lg rounded bg-teal-200  text-teal-800 overflow-hidden border-teal-400">
+                <div class="flex">
+                    <div class="flex items-center gap-4 p-4">
+                        <div class="shrink-0">
+                            <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z"></path>
+                            </svg>
+                        </div>
+                        <div class="space-y-1">
+                            <p class="font-bold capitalize">Info alert!</p>
+                            <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla in delectus quidem voluptatum expedita consequuntur.</p>
+                            <div>
+                                <a class=" flex items-center text-sm tracking-wide hover:underline" href="">See Details...</a>
+                            </div>
+                        </div>
+                        <div class="flex cursor-pointer items-center justify-center border-teal-200 hover:bg-teal-400 alert-del h-5 w-5 p-4">&times;
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- info alert end -->
+
+                    <!-- Error alert start -->
+
+                    <div class="max-w-lg bg-red-200  text-red-800 rounded  overflow-hidden border-red-800 ;">
+                        <div class="flex">
+                            <div class="flex items-center gap-4 p-4">
+                                <div class="shrink-0">
+                                    <svg width="32" height="32"  fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z"></path>
+                                      </svg>
+                                </div>
+                                <div class="space-y-1">
+                                    <p class="font-bold capitalize">Error alert!</p>
+                                    <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla in delectus quidem voluptatum expedita consequuntur.</p>
+                                    <div>
+                                        <a class=" flex items-center text-sm tracking-wide hover:underline" href="">See Details...</a>
+                                    </div>
+                                </div>
+                                <div class="flex cursor-pointer items-center justify-center border-red-300 hover:bg-red-300 alert-del h-5 w-5 p-4"> &times;
+                                </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- error alert end -->
+
+                <!-- Warning alert start -->
+
+                <div class="max-w-lg bg-yellow-200  text-yellow-800 rounded  overflow-hidden border-red-200">
+                    <div class="flex">
+                        <div class="flex items-center gap-4 p-4">
+                            <div class="shrink-0">
+                                <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z"></path>
+                                  </svg>
+                                
+                            </div>
+                            <div class="space-y-1">
+                                <p class="font-bold capitalize">Warning alert!</p>
+                                <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla in delectus quidem voluptatum expedita consequuntur.</p>
+                                <div>
+                                    <a class=" flex items-center text-sm tracking-wide hover:underline" href="">See Details...</a>
+                                </div>
+                            </div>
+                            <div class="flex cursor-pointer items-center justify-center border-yellow-200 hover:bg-yellow-300 alert-del h-5 w-5 p-4">&times;
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+          <!-- Warning alert start -->
+
+
+    </div>
+
+    <!-- javascript -->
+
+    <script>
+        var alert_del = document.querySelectorAll('.alert-del');
+
+        alert_del.forEach((x)=>{
+            x.addEventListener('click', () =>x.parentElement.classList.add('hidden'));
+        });
+    </script>
+</body>
+</html>
